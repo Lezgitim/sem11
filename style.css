@@ -4,9 +4,15 @@
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
 .menu {
     background: #222222;
 }
@@ -31,7 +37,7 @@ a{
 }
 
 .second_blok {
-    background: #F1E4E6;
+    background-color: #F1E4E6;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 65px;
@@ -54,9 +60,9 @@ a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 230px;
-    padding-right: 230px;
-    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
 
 }
 
@@ -212,9 +218,9 @@ a{
     padding: 15px 39px;
 }
 
-.ssilka{
+.ssilka {
     background-image: url(img/knopka.svg);
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     /* background-position: center center; */
     display: flex;
     flex-direction: column;
@@ -222,5 +228,105 @@ a{
     margin: 60px 690px;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
+
+    .logo {
+        padding-left: 32px;
+    }
+
+    .poisk {
+        padding-right: 424px;
+        padding-bottom: 20px;
+    }
+
+    .tablo {
+        padding-right: 17px;
+        padding-top: 26px;
+        padding-bottom: 18px;
+    }
+
+    .second_blok {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 65px;
+    }
 
 
+    .poloska {
+        padding-left: 39px;
+        padding-top: 125px;
+        padding-bottom: 137px;
+    }
+
+    .text {
+        padding-top: 139px;
+        padding-bottom: 152px;
+        padding-left: 16px;
+        width: 283px;
+
+    }
+
+    .right_second_blok {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .b_men {
+        max-width: 100%;
+        min-height: 100%;
+    }
+
+    .podmenu1 {
+        background: rgba(0, 0, 0, .65) url("img/menshe1.png");
+    }
+
+    .nadpis1 {
+        padding: 59px 58px 58px 38px;
+    }
+
+    .nadpisi {
+        padding: 60px;
+    }
+
+    .podmenu2 {
+        background: rgba(0, 0, 0, .65) url("img/me2.png");
+    }
+
+    .podmenu3 {
+        background: rgba(0, 0, 0, .65) url("img/me3.png");
+    }
+
+    .podmenu4 {
+        background: rgba(0, 0, 0, .65) url("img/me4.png");
+    }
+
+    .nadpis4 {
+        padding: 33px 287px;
+    }
+
+    .htext {
+        margin-top: 110px;
+    }
+
+    .endblok {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+    }
+
+    .ssilka {
+        background-image: url(img/knopka.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 70px 260px;
+    }
+
+}
