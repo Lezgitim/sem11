@@ -13,6 +13,10 @@ a {
     padding-right: calc(50% - 573px);
 }
 
+.kn{
+    display: none;
+}
+
 .menu {
     background: #222222;
 }
@@ -241,6 +245,10 @@ a {
         padding-right: calc(50% - 376px);
     }
 
+    .kn{
+        display: none;
+    }
+
     .logo {
         padding-left: 32px;
     }
@@ -339,5 +347,84 @@ a {
         align-items: center;
         margin: 70px 260px;
     }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 152px);
+        padding-right: calc(50% - 152px);
+    }
+
+
+    .logo {
+        padding-left: 16px;
+    }
+
+    .poisk {
+        padding-right: 130px;
+        padding-bottom: 20px;
+    }
+
+    .tablo{
+        display: none;;
+    }
+
+    .kn{
+        display: inline;
+        padding-right: 16px;
+        padding-top: 26px;
+        padding-bottom: 20px;
+    }
+
+    .left_second_blok{
+        display: none;
+    }
+
+    .second_blok{
+        grid-template-columns: auto;
+        justify-content: center;
+
+    }
+
+    .poloska {
+       height: 70px;
+    }
+
+    .text {
+        padding-top: 149px;
+        padding-bottom: 152px;
+        padding-left: 16px;
+        width: 300px;
+        
+}
+
+    .podmenu{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .podmenu1{
+        display: flex;
+       justify-content: center;
+    }
+
+    .podmenu4 {
+        background: rgba(0, 0, 0, .65) url("img-mobile/Layer.png");
+        display: flex;
+        justify-content: center;
+    }
+
+    .nadpis4{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+   .pp{
+    white-space: nowrap;
+   }
+   
 
 }
