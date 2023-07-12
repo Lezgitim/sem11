@@ -13,7 +13,7 @@ a {
     padding-right: calc(50% - 573px);
 }
 
-.kn{
+.kn {
     display: none;
 }
 
@@ -46,11 +46,11 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 35px;
-    
-    
+
+
 }
 
-.right_second_blok{
+.right_second_blok {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,7 +120,7 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-   
+
     gap: 30px;
 }
 
@@ -245,7 +245,7 @@ a {
         padding-right: calc(50% - 376px);
     }
 
-    .kn{
+    .kn {
         display: none;
     }
 
@@ -296,7 +296,7 @@ a {
         min-height: 100%;
     }
 
-    .podmenu{
+    .podmenu {
         gap: 10px;
     }
 
@@ -366,29 +366,30 @@ a {
         padding-bottom: 20px;
     }
 
-    .tablo{
-        display: none;;
+    .tablo {
+        display: none;
+        ;
     }
 
-    .kn{
+    .kn {
         display: inline;
         padding-right: 16px;
         padding-top: 26px;
         padding-bottom: 20px;
     }
 
-    .left_second_blok{
+    .left_second_blok {
         display: none;
     }
 
-    .second_blok{
+    .second_blok {
         grid-template-columns: auto;
         justify-content: center;
 
     }
 
     .poloska {
-       height: 70px;
+        height: 70px;
     }
 
     .text {
@@ -396,17 +397,17 @@ a {
         padding-bottom: 152px;
         padding-left: 16px;
         width: 300px;
-        
-}
 
-    .podmenu{
+    }
+
+    .podmenu {
         flex-direction: column;
         flex-wrap: nowrap;
     }
 
-    .podmenu1{
+    .podmenu1 {
         display: flex;
-       justify-content: center;
+        justify-content: center;
     }
 
     .podmenu4 {
@@ -415,17 +416,35 @@ a {
         justify-content: center;
     }
 
-    .nadpis4{
+    .nadpis4 {
         display: flex;
         justify-content: center;
         padding-top: 30px;
         padding-bottom: 30px;
     }
 
-   .pp{
-    white-space: nowrap;
-    font-size: 12px;
-   }
-   
+    .pp {
+        white-space: nowrap;
+        font-size: 12px;
+    }
+
+    .endblok {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+.k55{
+    width: 304px;
+}
+
+.ssilka{
+    margin-top: 41px;
+    margin-bottom: 85px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
 
 }
