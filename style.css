@@ -279,216 +279,6 @@ a:hover::before {
     margin: 60px 390px;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .center {
-        padding-left: calc(50% - 376px);
-        padding-right: calc(50% - 376px);
-    }
-
-    .kn {
-        display: none;
-    }
-
-    .logo {
-        padding-left: 32px;
-    }
-
-    .poisk {
-        padding-right: 424px;
-        padding-bottom: 20px;
-    }
-
-    .tablo {
-        padding-right: 17px;
-        padding-top: 26px;
-        padding-bottom: 18px;
-    }
-
-    .second_blok {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        margin-bottom: 65px;
-    }
-
-
-    .poloska {
-        padding-left: 39px;
-        padding-top: 125px;
-        padding-bottom: 137px;
-    }
-
-    .text {
-        padding-top: 139px;
-        padding-bottom: 152px;
-        padding-left: 16px;
-        width: 283px;
-
-    }
-
-    .right_second_blok {
-        display: flex;
-        flex-direction: row;
-    }
-
-
-    .b_men {
-        max-width: 100%;
-        min-height: 100%;
-    }
-
-    .podmenu {
-        gap: 10px;
-    }
-
-    .podmenu1 {
-        background: rgba(0, 0, 0, .65) url("img/menshe1.png");
-    }
-
-    .nadpis1 {
-        padding: 59px 58px 58px 38px;
-    }
-
-    .nadpisi {
-        padding: 60px;
-    }
-
-    .podmenu2 {
-        background: rgba(0, 0, 0, .65) url("img/me2.png");
-    }
-
-    .podmenu3 {
-        background: rgba(0, 0, 0, .65) url("img/me3.png");
-    }
-
-    .podmenu4 {
-        background: rgba(0, 0, 0, .65) url("img/me4.png");
-    }
-
-    .nadpis4 {
-        padding: 33px 287px;
-    }
-
-    .htext {
-        margin-top: 90px;
-    }
-
-    .endblok {
-        padding-left: 10px;
-        padding-right: 10px;
-        gap: 10px;
-    }
-
-    .ssilka {
-        background-image: url(img/knopka.svg);
-        background-repeat: no-repeat;
-        background-position: center center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 70px 260px;
-    }
-
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-    .center {
-        padding-left: calc(50% - 152px);
-        padding-right: calc(50% - 152px);
-    }
-
-
-    .logo {
-        padding-left: 16px;
-    }
-
-    .poisk {
-        padding-right: 130px;
-        padding-bottom: 20px;
-    }
-
-    .tablo {
-        display: none;
-        ;
-    }
-
-    .kn {
-        display: inline;
-        padding-right: 16px;
-        padding-top: 26px;
-        padding-bottom: 20px;
-    }
-
-    .left_second_blok {
-        display: none;
-    }
-
-    .second_blok {
-        grid-template-columns: auto;
-        justify-content: center;
-
-    }
-
-    .poloska {
-        height: 70px;
-    }
-
-    .text {
-        padding-top: 149px;
-        padding-bottom: 152px;
-        padding-left: 16px;
-        width: 300px;
-
-    }
-
-    .podmenu {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .podmenu1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .podmenu4 {
-        background: rgba(0, 0, 0, .65) url("img-mobile/Layer.png");
-        display: flex;
-        justify-content: center;
-    }
-
-    .nadpis4 {
-        display: flex;
-        justify-content: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .pp {
-        white-space: nowrap;
-        font-size: 12px;
-    }
-
-    .endblok {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .k55 {
-        width: 304px;
-    }
-
-    .ssilka {
-        margin-top: 41px;
-        margin-bottom: 85px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-
-
-}
-
 .sec {
     display: flex;
     flex-direction: row;
@@ -689,4 +479,300 @@ a:hover::before {
     color: #fff;
     box-shadow: inset 400px 0 0 0 #d65495;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
+
+    .kn {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 32px;
+    }
+
+    .poisk {
+        padding-right: 424px;
+        padding-bottom: 20px;
+    }
+
+    .tablo {
+        padding-right: 17px;
+        padding-top: 26px;
+        padding-bottom: 18px;
+    }
+
+    .second_blok {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 65px;
+    }
+
+
+    .poloska {
+        padding-left: 39px;
+        padding-top: 125px;
+        padding-bottom: 137px;
+    }
+
+    .text {
+        padding-top: 139px;
+        padding-bottom: 152px;
+        padding-left: 16px;
+        width: 283px;
+
+    }
+
+    .right_second_blok {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .b_men {
+        max-width: 100%;
+        min-height: 100%;
+    }
+
+    .podmenu {
+        gap: 10px;
+    }
+
+    .podmenu1 {
+        background: rgba(0, 0, 0, .65) url("img/menshe1.png");
+    }
+
+    .nadpis1 {
+        padding: 59px 58px 58px 38px;
+    }
+
+    .nadpisi {
+        padding: 60px;
+    }
+
+    .podmenu2 {
+        background: rgba(0, 0, 0, .65) url("img/me2.png");
+    }
+
+    .podmenu3 {
+        background: rgba(0, 0, 0, .65) url("img/me3.png");
+    }
+
+    .podmenu4 {
+        background: rgba(0, 0, 0, .65) url("img/me4.png");
+    }
+
+    .nadpis4 {
+        padding: 33px 287px;
+    }
+
+    .htext {
+        margin-top: 90px;
+    }
+
+    .endblok {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+    }
+
+    .ssilka {
+        background-image: url(img/knopka.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 70px 260px;
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #222224;
+        height: 610px;
+    }
+
+    .fs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    padding-bottom: 0;
+    }
+
+    .sec2 {
+        background: rgba(244, 244, 244, 0.70) url(image_footer/Layer\ 41.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 690px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .art2{
+        padding-top: 0;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .center {
+        padding-left: calc(50% - 152px);
+        padding-right: calc(50% - 152px);
+    }
+
+
+    .logo {
+        padding-left: 16px;
+    }
+
+    .poisk {
+        padding-right: 130px;
+        padding-bottom: 20px;
+    }
+
+    .tablo {
+        display: none;
+        ;
+    }
+
+    .kn {
+        display: inline;
+        padding-right: 16px;
+        padding-top: 26px;
+        padding-bottom: 20px;
+    }
+
+    .left_second_blok {
+        display: none;
+    }
+
+    .second_blok {
+        grid-template-columns: auto;
+        justify-content: center;
+
+    }
+
+    .poloska {
+        height: 70px;
+    }
+
+    .text {
+        padding-top: 149px;
+        padding-bottom: 152px;
+        padding-left: 16px;
+        width: 300px;
+
+    }
+
+    .podmenu {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .podmenu1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .podmenu4 {
+        background: rgba(0, 0, 0, .65) url("img-mobile/Layer.png");
+        display: flex;
+        justify-content: center;
+    }
+
+    .nadpis4 {
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .pp {
+        white-space: nowrap;
+        font-size: 12px;
+    }
+
+    .endblok {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .k55 {
+        width: 304px;
+    }
+
+    .ssilka {
+        margin-top: 41px;
+        margin-bottom: 85px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #222224;
+        height: 610px;
+    }
+
+    .fs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0;
+    padding-bottom: 0;
+    }
+
+    .sec2 {
+        background: rgba(244, 244, 244, 0.70) url(image_footer/Layer\ 41.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 690px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .art2{
+        padding-top: 0;
+    }
+
+    .sec3{
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .right_d{
+        order: -1;
+    }
+
+    .lk1 {
+        width: 220px;
+    }
+
+    .lk2 {
+        width: 80px;
+    }
+    
+
+    .rela{
+        width: 279px;
+    }
+}
+
+
 
