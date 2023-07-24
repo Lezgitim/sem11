@@ -8,7 +8,7 @@ a {
     text-decoration: none;
 }
 
-a {
+/* a {
   background-image: linear-gradient(
     to right,
     #0a1ceb,
@@ -43,7 +43,7 @@ a:hover {
 
 a:hover::before {
   width:100%;
-}
+} */
   
  
   
@@ -59,26 +59,11 @@ a:hover::before {
 
 .menu {
     background: #222222;
+    height: 75px;
 }
 
-.logo {
-    padding-left: 120px;
-    padding-right: 21px;
-    padding-top: 18px;
-    padding-bottom: 19px;
-}
 
-.poisk {
-    padding-right: 600px;
-    padding-top: 28.21px;
-    padding-bottom: 20px;
-}
 
-.tablo {
-    padding-right: 120px;
-    padding-top: 26px;
-    padding-bottom: 20px;
-}
 
 
 .second_blok {
@@ -496,7 +481,6 @@ a:hover::before {
 
     .poisk {
         padding-right: 424px;
-        padding-bottom: 20px;
     }
 
     .tablo {
@@ -768,7 +752,6 @@ a:hover::before {
         width: 80px;
     }
     
-
     .rela{
         width: 279px;
     }

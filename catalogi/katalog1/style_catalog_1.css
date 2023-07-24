@@ -1,0 +1,227 @@
+.tablo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo_poisk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.podmenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.podmenu_katalog {
+  background: #F8F3F4;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left_slogan {
+  color: #F16D7F;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.right_podmenu {
+  color: #636363;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.right_podmenu_arriv {
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.second_blok_katalog {
+  border: 1px;
+  border-color: #EAEAEA;
+  border-style: solid;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F7F7F7;
+  height: 770px;
+  position: absolute;
+}
+
+.strelki {
+  background: rgb(219, 210, 210);
+}
+
+.main_katalog {
+  border: 1px;
+  border-color: #EAEAEA;
+  border-style: solid;
+  background: #FFF;
+  position: relative;
+  margin-top: 700px;
+  margin-bottom: 130px;
+}
+
+.women_text {
+  color: #F16D7F;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.line_wom {
+  width: 63px;
+  height: 3px;
+  background-color: #EF5B70;
+  border: none;
+}
+
+.paragraph_katalog1 {
+  color: #5E5E5E;
+  text-align: center;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.main_katalog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.women_moschino_text {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.moshcino_text {
+  color: #4D4D4D;
+  font-family: "Lato";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.paragraph_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-top: 48px;
+  margin-bottom: 32px;
+}
+
+.price_561_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 65px;
+  margin-bottom: 65px;
+}
+
+.price_561 {
+  color: #EF5B70;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.line_price_561 {
+  width: 641px;
+  height: 1px;
+  background-color: #EAEAEA;
+  border: none;
+}
+
+.sele {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#se {
+  color: #6F6E6E;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+}
+
+.kvadrat_katalog_1 {
+  margin-top: 50px;
+  border: 1px;
+  width: 200px;
+  height: 48px;
+  border-color: #FF6A6A;
+  border-style: solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  margin-bottom: 64px;
+}
+
+.add {
+  color: #F26376;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer {
+  margin-top: 128px;
+}/*# sourceMappingURL=style_catalog_1.css.map */
