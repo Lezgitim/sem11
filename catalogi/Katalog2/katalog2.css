@@ -1,0 +1,187 @@
+summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+label {
+  color: #6F6E6E;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.navigation {
+  height: 132px;
+  padding-top: 39px;
+  position: relative;
+  display: flex;
+  gap: 11px;
+}
+
+.ssilka_shapka {
+  color: #636363;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.filter {
+  padding-top: 13px;
+  width: 360px;
+  position: relative;
+  z-index: 10;
+}
+.filter_content {
+  background-color: #fff;
+  padding-top: 0;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+}
+.filter[open] {
+  background: #FFF;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+.filter[open] .filter_head {
+  color: #EF5B70;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.filter[open] path {
+  fill: #EF5B70;
+}
+.filter_summary {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding-left: 16px;
+}
+.filter_head {
+  color: #000;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.filter_iteam {
+  margin-top: 16px;
+}
+.filter_heading, .filter_link {
+  color: #6F6E6E;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.filter_link:hover {
+  color: #EF5B70;
+}
+.filter_link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  padding: 24px 16px;
+}
+.filter_iteam[open] .filter_heading {
+  color: #EF5B70;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.filter_heading {
+  padding: 8px 11px 11px 11px;
+  border-bottom: 1px solid #ebebeb;
+  border-left: 5px solid #EF5B70;
+}
+
+.sort {
+  display: flex;
+  gap: 16px;
+  padding-top: 12px;
+}
+.sort_details {
+  position: relative;
+}
+.sort_summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sort_check {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.sort_heading {
+  color: #6F6E6E;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sort_box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  padding: 7px 30px 11px 9px;
+  left: -9px;
+  top: 22px;
+}
+
+.number {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 95px;
+}
+.number_page {
+  border: 1px solid #EBEBEB;
+}
+
+ul.pagination {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+ul.pagination li {
+  display: inline;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+ul.pagination li a {
+  text-decoration: none;
+  color: #C4C4C4;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+ul.pagination .page_1 {
+  color: #EF5B70 !important;
+}
+ul.pagination .right_str_page {
+  padding-right: 20px;
+}
+ul.pagination .left_str_page {
+  padding-left: 20px;
+}/*# sourceMappingURL=katalog2.css.map */
