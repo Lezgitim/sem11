@@ -1,3 +1,23 @@
+a:hover {
+  background: rgba(0, 0, 0, 0);
+  color: red;
+  box-shadow: inset 400px 0 0 0 #d65495;
+}
+
+a {
+  transition: color 0.3s ease-in-out, 1.5s ease-in-out;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0);
+  color: red;
+  box-shadow: inset 400px 0 0 0 #d65495;
+}
+
+button {
+  transition: color 0.3s ease-in-out, 1.5s ease-in-out;
+}
+
 .podmenu_katalog {
   margin-bottom: 96px;
 }
@@ -225,4 +245,12 @@
   margin-bottom: 58px;
   margin-left: 43px;
   margin-right: 43px;
+}
+.main_korzina_right .main_korzina_right_GRAND_h1:hover {
+  background: rgba(0, 0, 0, 0);
+  color: red;
+  box-shadow: inset 400px 0 0 0 #f1ebee;
+}
+.main_korzina_right .main_korzina_right_GRAND_h1 {
+  transition: color 0.3s ease-in-out, 0.5s ease-in-out;
 }/*# sourceMappingURL=korzina_style.css.map */
