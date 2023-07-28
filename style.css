@@ -44,9 +44,9 @@ a:hover {
 a:hover::before {
   width:100%;
 } */
-  
- 
-  
+
+
+
 
 .center {
     padding-left: calc(50% - 573px);
@@ -456,11 +456,11 @@ a:hover::before {
     height: 17px;
 }
 
-.all{
-    transition: color .3s ease-in-out,  .3s ease-in-out;
+.all {
+    transition: color .3s ease-in-out, .3s ease-in-out;
 }
 
-.all:hover{
+.all:hover {
     color: #fff;
     box-shadow: inset 400px 0 0 0 #d65495;
 }
@@ -587,7 +587,7 @@ a:hover::before {
         flex-direction: column;
         align-items: center;
         padding-top: 0;
-    padding-bottom: 0;
+        padding-bottom: 0;
     }
 
     .sec2 {
@@ -601,7 +601,7 @@ a:hover::before {
         justify-content: space-evenly;
     }
 
-    .art2{
+    .art2 {
         padding-top: 0;
     }
 
@@ -716,7 +716,7 @@ a:hover::before {
         flex-direction: column;
         align-items: center;
         padding-top: 0;
-    padding-bottom: 0;
+        padding-bottom: 0;
     }
 
     .sec2 {
@@ -730,17 +730,17 @@ a:hover::before {
         justify-content: space-evenly;
     }
 
-    .art2{
+    .art2 {
         padding-top: 0;
     }
 
-    .sec3{
+    .sec3 {
         flex-direction: column;
         align-items: center;
-    
+
     }
 
-    .right_d{
+    .right_d {
         order: -1;
     }
 
@@ -751,11 +751,8 @@ a:hover::before {
     .lk2 {
         width: 80px;
     }
-    
-    .rela{
+
+    .rela {
         width: 279px;
     }
 }
-
-
-
