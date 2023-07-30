@@ -1,0 +1,152 @@
+.main {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 128px;
+
+    &__forma {
+
+        &_h3 {
+            color: #222;
+            font-family: 'Lato';
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-bottom: 20px;
+        }
+
+        &_rad {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            gap: 20px;
+            padding-bottom: 14px;
+        }
+
+        &_rad1 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .pad {
+            padding-right: 20px;
+            color: #000;
+            font-family: 'Lato';
+            font-size: 11px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+        #dewey {
+
+            height: 17px;
+            width: 17px;
+            padding: 20px;
+
+        }
+
+        &_p {
+            color: #B1B1B1;
+            font-family: 'Lato';
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+    }
+
+    .forma {
+        &__form {
+            display: flex;
+            flex-direction: column;
+            gap: 21px;
+
+            &_input {
+                padding-left: 16px;
+                padding-top: 12px;
+                padding-bottom: 15px;
+            }
+
+            .input2 {
+                margin-bottom: 9px;
+            }
+        }
+
+    }
+
+    .m {
+        margin-bottom: 0px !important;
+        display: flex;
+        gap: none;
+
+    }
+
+    &__button {
+        padding: 16px 29px 17px 29px;
+        background-color: #F16D7F;
+
+        &_span {
+            padding-right: 20px;
+            color: #FFF;
+            font-family: 'Lato';
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    &__stock {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 21px;
+
+        &_h1 {
+            color: #000;
+            font-family: 'Lato';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-bottom: 1px;
+        }
+
+        &_p1 {
+            color: #000;
+            font-family: 'Lato';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+        }
+
+        &_p2span {
+            padding-left: 23px;
+        }
+
+        &_div {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+}
+
+.shrift {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.sec3 {
+    justify-content: space-between;
+}

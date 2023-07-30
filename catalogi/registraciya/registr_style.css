@@ -1,0 +1,124 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 128px;
+}
+.main__forma_h3 {
+  color: #222;
+  font-family: "Lato";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.main__forma_rad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding-bottom: 14px;
+}
+.main__forma_rad1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main__forma .pad {
+  padding-right: 20px;
+  color: #000;
+  font-family: "Lato";
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.main__forma #dewey {
+  height: 17px;
+  width: 17px;
+  padding: 20px;
+}
+.main__forma_p {
+  color: #B1B1B1;
+  font-family: "Lato";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.main .forma__form {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.main .forma__form_input {
+  padding-left: 16px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+.main .forma__form .input2 {
+  margin-bottom: 9px;
+}
+.main .m {
+  margin-bottom: 0px !important;
+  display: flex;
+  gap: none;
+}
+.main__button {
+  padding: 16px 29px 17px 29px;
+  background-color: #F16D7F;
+}
+.main__button_span {
+  padding-right: 20px;
+  color: #FFF;
+  font-family: "Lato";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main__stock {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 21px;
+}
+.main__stock_h1 {
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 1px;
+}
+.main__stock_p1 {
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.main__stock_p2span {
+  padding-left: 23px;
+}
+.main__stock_div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.shrift {
+  color: #000;
+  font-family: "Lato";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.sec3 {
+  justify-content: space-between;
+}/*# sourceMappingURL=registr_style.css.map */
