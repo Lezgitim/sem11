@@ -224,4 +224,25 @@
 
 .footer {
   margin-top: 128px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .second_blok_katalog {
+    position: unset;
+  }
+  .main_katalog {
+    position: unset;
+    margin-top: 0;
+    border: none;
+  }
+  .kart10 {
+    display: none;
+  }
+  .endblok {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .sec3 {
+    justify-content: space-between;
+  }
 }/*# sourceMappingURL=style_catalog_1.css.map */
