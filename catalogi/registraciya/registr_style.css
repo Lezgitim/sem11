@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 128px;
+  padding-bottom: 96px;
 }
 .main__forma_h3 {
   color: #222;
@@ -68,6 +69,7 @@
 .main__button {
   padding: 16px 29px 17px 29px;
   background-color: #F16D7F;
+  border: none;
 }
 .main__button_span {
   padding-right: 20px;
