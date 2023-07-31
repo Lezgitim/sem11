@@ -253,4 +253,21 @@ button {
 }
 .main_korzina_right .main_korzina_right_GRAND_h1 {
   transition: color 0.3s ease-in-out, 0.5s ease-in-out;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main_korzina {
+    flex-direction: column;
+  }
+  .main_korzina_left_1_knopki_div {
+    justify-content: center;
+    gap: 48px;
+  }
+  .main_korzina_right {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .main_korzina_right_vvod {
+    margin-bottom: unset;
+  }
 }/*# sourceMappingURL=korzina_style.css.map */

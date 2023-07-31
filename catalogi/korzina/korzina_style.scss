@@ -284,3 +284,27 @@ button {
     }
 
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .main_korzina {
+        flex-direction: column;
+
+        &_left_1_knopki_div {
+            justify-content: center;
+            gap: 48px;
+        }
+
+        &_right {
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        &_right_vvod{
+            margin-bottom: unset;
+        }
+
+    }
+
+
+}

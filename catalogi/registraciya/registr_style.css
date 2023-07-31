@@ -123,4 +123,19 @@
 
 .sec3 {
   justify-content: space-between;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    gap: 22px;
+  }
+  .main__stock_p1 {
+    font-size: 16px;
+  }
+  .main__stock_h1 {
+    font-size: 16px;
+  }
+  .shrift {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=registr_style.css.map */

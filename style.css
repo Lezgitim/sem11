@@ -419,7 +419,7 @@ a:hover::before {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around
+    justify-content: space-between;
 }
 
 .left_d {

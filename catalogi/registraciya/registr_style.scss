@@ -152,3 +152,21 @@
 .sec3 {
     justify-content: space-between;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        gap: 22px;
+
+        &__stock_p1{
+            font-size: 16px;
+        }
+
+        &__stock_h1{
+            font-size: 16px;
+        }
+    }
+    .shrift{
+        font-size: 16px;
+    }
+
+}
