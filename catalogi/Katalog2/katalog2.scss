@@ -210,12 +210,22 @@ ul.pagination {
         color: #EF5B70 !important;
     }
 
-    .right_str_page{
+    .right_str_page {
         padding-right: 20px;
     }
 
-    .left_str_page{
+    .left_str_page {
         padding-left: 20px;
     }
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navigation {
+        justify-content: space-between
+    }
+
+    .endblok {
+        justify-content: center;
+        gap: 16px;
+    }
+}
