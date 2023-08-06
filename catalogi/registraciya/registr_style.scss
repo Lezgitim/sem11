@@ -154,19 +154,31 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .main{
+    .main {
         gap: 22px;
 
-        &__stock_p1{
+        &__stock_p1 {
             font-size: 16px;
         }
 
-        &__stock_h1{
+        &__stock_h1 {
             font-size: 16px;
         }
     }
-    .shrift{
+
+    .shrift {
         font-size: 16px;
     }
 
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .main {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .left_d {
+        padding-bottom: 24px;
+    }
 }

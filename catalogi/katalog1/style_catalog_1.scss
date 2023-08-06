@@ -214,3 +214,68 @@
         justify-content: space-between;
     }
 }
+
+@media (min-width: 375px) and (max-width: 425px) {
+    
+    .logo{
+       padding-left: unset;
+    }
+    
+    .poisk {
+        padding-bottom: unset;
+    }
+
+    .chel {
+        display: none;
+    }
+
+    .podmenu_katalog {
+        flex-direction: column;
+        padding-top: 24px;
+
+    }
+
+    .second_blok_katalog,
+    .main_katalog {
+        position: unset;
+        margin-top: unset;
+    }
+
+    .right_podmenu {
+        margin-bottom: 46px;
+    }
+
+    .picture {
+        // position: absolute;
+    }
+
+    .fl_strelki{
+       display: flex;
+       justify-content: space-between; 
+       position: absolute;
+       width: 100%;
+    }
+
+    // .strelki {
+    //     position: absolute;
+    // }
+
+    .line_price_561 {
+        width: 175px;
+    }
+
+    #se {
+        font-size: 10px;
+    }
+
+    .kart7 {
+        display: none;
+    }
+
+    .footer{
+        margin-top: 64px;
+    }
+
+
+
+}

@@ -270,4 +270,72 @@ button {
   .main_korzina_right_vvod {
     margin-bottom: unset;
   }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+  img {
+    width: unset;
+  }
+  .sec2 {
+    height: 550px;
+  }
+  .podmenu_katalog {
+    padding-top: 50px;
+    padding-bottom: 69px;
+    margin-bottom: 39px;
+  }
+  .main_korzina {
+    flex-direction: column;
+    gap: unset;
+    padding-bottom: unset;
+    margin-bottom: 96px;
+  }
+  .main_korzina_left_1 {
+    gap: 10px;
+  }
+  .main_korzina_left_1_krestik_div {
+    margin-top: 17px;
+    margin-right: 5px;
+  }
+  .main_korzina_left_1_h3 {
+    font-size: 16px;
+    padding-top: 13px;
+    padding-bottom: 25px;
+  }
+  .main_korzina_left_1_p2 {
+    padding-right: 31px;
+  }
+  .main_korzina .allpleft1 {
+    font-size: 14px;
+  }
+  .main_korzina_left_1_knopki {
+    font-size: 9px;
+    padding: 9px 17px;
+  }
+  .main_korzina_left_1_knopki_div {
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 48px;
+  }
+  .main_korzina_left_1_p1_span {
+    font-size: 14px;
+  }
+  .main_korzina_left_1_p4_span2 {
+    font-size: 10px;
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+  .main_korzina_right {
+    flex-direction: column;
+  }
+  .main_korzina_right_vvod {
+    margin-bottom: unset;
+    margin-bottom: 50px;
+  }
+  .main_korzina_right_vvod_input {
+    font-size: 13px;
+  }
+  .main_korzina .button_korzina {
+    padding: 11px 21px;
+    margin-right: unset;
+  }
 }/*# sourceMappingURL=korzina_style.css.map */
